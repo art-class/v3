@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
-  body {
+
+body {
   font-family: "DM Sans";
   color: white;
   background-color: #111;
   text-align: center;
 }
 
-h1 { font-family: "Press Start 2P"; }
+h1 {
+  font-family: "Press Start 2P";
+}
 
 a {
   font-family: "DM Sans";
@@ -34,6 +37,7 @@ a {
   transition: all 0.6s;
   border-radius: 5px;
 }
+
 .link2:hover {
   color: #333;
   background-color: #fff;
@@ -60,7 +64,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   height: 50px;
-    
+
 }
 
 input {
@@ -78,6 +82,7 @@ input {
 h3 {
   font-family: Verdana;
 }
+
 /* w3schools */
 .switch {
   position: relative;
@@ -86,7 +91,7 @@ h3 {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -116,15 +121,15 @@ h3 {
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -137,4 +142,67 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+#homepage-cards {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card i {
+  font-size: 100px;
+}
+
+.card {
+  border-radius: 3vh;
+  font-family: "DM Sans";
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  width: 20%;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 13px #575b5c;
+  background-color: #111;
+  transform: scale(1.05);
+}
+
+.card>* {
+  flex: 1 1 160px;
+}
+
+body,
+html {
+  height: 100%
+}
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
 }
