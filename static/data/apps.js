@@ -38,5 +38,15 @@ var apps = [
     "id": "twitter",
     "title": "Twitter",
     "url": "https://twitter.com"
+  },
+  {
+    'id': 'win11',
+    'title': 'Windows 11',
+    'url': 'https://win11.blueedge.me/'
+  },
+  {
+    'id': 'chatgpt',
+    'title': 'ChatGPT',
+    'url': 'https://chat.openai.com'
   }
 ]

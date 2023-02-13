@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+
+
+  <title>Art Class</title>
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/navbar.css" />
+  <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+
+</style>
+
+<body>
+  <div id="particles-js"></div>
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles.js"></script>
+  
+  <div id="navbar"></div>
+  <script src="../js/navbar.js"></script>
+  
+  <h1>Bookmarklets</h1>
+  
+  <label for="editpage" class="bk-label">Edit Page</h3>
+  <input type="text" id="editpage-content" value="thhththt" hidden></input> <button class="copy" id="editpage">Copy</button>
+  
+  <footer>Copyright &copy; 2023 Art Class</footer>
+
+  <script src="../js/cloak.js"></script>
+
+  <script>
+    document.querySelectorAll(".copy").forEach(x => {
+      x.addEventListener("click", () => {
+        var content = document.getElementById(`${x.id}-content`)
+        navigator.clipboard.writeText(content.value);
+        prompt("Copied to clipboard! Here's it again if you need it:", content.value);
+      })
+    })
+  </script>
+  
+  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+      server: '967446591373983804', // Art Class
+      channel: '1074366934356852896' // #〈💬〉guest-chat
+    })
+  </script>
+</body>
