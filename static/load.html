@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Art Class</title>
+  <link href="icon.png" rel="icon" />
+  <link href="styles/page.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="loadingdiv">
+    <div class="msg">
+      <div class="lds-dual-ring"></div>
+      <p class="info">
+        Loading content, please wait!
+      </p>
+    </div>
+  </div>
+  
+  <iframe id="frame"></iframe> 
+  <p>Copyright &copy; 2023 Art Class <br>
+  All games and apps are copyright their respective owners</p>
+  <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a>
+  <br>
+  
+  <script src="./uv/uv.bundle.js"></script>
+  <script src="./uv/uv.config.js"></script>
+  <script src="./data/games.js"></script>
+  <script src="./data/apps.js"></script>
+
+  <script>
+    const params = new URLSearchParams(window.location.search)
+    if (params.get("game")) {
+      games.forEach(game => {
+        if (game.id != params.get("game")) return
+        document.title = `${game.title} | Art Class`
+        navigator.serviceWorker.register('./loadsw.js', {
+          scope: __uv$config.prefix
+        }).then(() => {
+          document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(game.url);
+          document.querySelector("#loadingdiv")[0].remove()
+        });
+        
+      })
+    } else if (params.get("app")) {
+      apps.forEach(app => {
+        if (app.id != params.get("app")) return
+        document.title = `${ap.title} | Art Class`
+        navigator.serviceWorker.register('./loadsw.js', {
+          scope: __uv$config.prefix
+          
+        }).then(() => {
+          document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
+          document.querySelector(".msg")[0].remove()   
+        });
+      })
+    }
+  
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
+  body {
+  font-family: "DM Sans";
+  color: white;
+  background-color: #111;
+  text-align: center;
+}
+
+h1 { font-family: "Press Start 2P"; }
+
+a {
+  font-family: "DM Sans";
+  text-decoration: none;
+  color: inherit;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  color: #333;
+}
+
+.link2 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "DM Sans";
+  transition: all 0.6s;
+  border-radius: 5px;
+}
+.link2:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: auto;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+button {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  font-family: "DM Sans";
+  padding: 7px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+    
+}
+
+input {
+  font-family: "DM Sans";
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  height: 25px;
+  margin: 5px;
+}
+
+h3 {
+  font-family: Verdana;
+}
+/* w3schools */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

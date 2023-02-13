@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+
+
+  <title>Gs | Art Class</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+
+</style>
+
+<body>
+  <div id="navbar"></div>
+  <script src="js/navbar.js"></script>
+  
+  <h1>Games</h1>
+  <hr width="200px;">
+  <p id="list"></p>
+  <br> <a class="link2" href="/"><i class="fa-solid fa-arrow-left"></i> Back</a>
+  <footer>Copyright &copy; 2023 Art Class</footer>
+
+  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+      server: '967446591373983804', // Art Class
+      channel: '1074366934356852896' // #〈💬〉guest-chat
+    })
+  </script>
+  
+  <script src="data/games.js"></script>
+  <script>
+    games.forEach(game => {
+      var link = document.createElement("a")
+      link.classList.add("link")
+      link.href = `/load.html?game=${game.id}`
+      link.innerHTML = `${game.title} <br>`
+      document.querySelector("#list").appendChild(link)
+    })
+  </script>
+</body>
