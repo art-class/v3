@@ -13,34 +13,38 @@
 
 <body>
   <div id="particles-js"></div>
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles.js"></script>
+  
   <div id="navbar"></div>
   <script src="js/navbar.js"></script>
+  
   <br><br><br>
   <h1>Welcome to Art Class</h1>
   <p>Your hub for everything school entertainment.</p>
   
   <div id="homepage-cards">
-    <div class="card">
+    <div class="card" onclick="window.location.href = '/gs.html'">
       <i class="fa-solid fa-gamepad cardicon"></i>
       <div class="card-content">
         <h4>Games</h4>
       </div>
     </div>
     
-    <div class="card">
+    <div class="card" onclick="window.location.href = '/apps.html'">
       <i class="fa-brands fa-app-store-ios"></i>
       <div class="card-content">
         <h4>Apps</h4>
       </div>
     </div>
     
-    <div class="card">
+    <div class="card" onclick="window.location.href = '/utils.html'">
       <i class="fa-solid fa-wrench"></i>
       <div class="card-content">
         <h4>Utilities</h4>
       </div>
     </div>
-    <div class="card">
+    <div class="card" onclick="window.location.href = '/settings.html'">
       <i class="fa-solid fa-gear"></i>
       <div class="card-content">
         <h4>Settings</h4>
@@ -57,6 +61,4 @@
       channel: '1074366934356852896' // #〈💬〉guest-chat
     })
   </script>
-  <script src="js/particles.min.js"></script>
-  <script src="js/app.js"></script>
 </body>

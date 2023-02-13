@@ -1,5 +1,5 @@
 var navbar = `
-<link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
+<link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet" />
 
 <nav>
   <div class="container">

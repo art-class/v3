@@ -87,10 +87,6 @@ a {
   text-align: center;
 }
 
-a:hover {
-  color: blue;
-}
-
 #buttons {
   position: absolute;
   bottom: 0;

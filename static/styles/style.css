@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Silkscreen&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 
 body {
   font-family: "DM Sans";
@@ -7,9 +7,7 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-family: "Press Start 2P";
-}
+h1 { font-family: "Silkscreen"; }
 
 a {
   font-family: "DM Sans";
@@ -168,7 +166,6 @@ input:checked+.slider:before {
 
 .card:hover {
   box-shadow: 2px 2px 13px #575b5c;
-  background-color: #111;
   transform: scale(1.05);
 }
 
@@ -176,9 +173,8 @@ input:checked+.slider:before {
   flex: 1 1 160px;
 }
 
-body,
-html {
-  height: 100%
+body, html {
+  height: 100%; overflow: hidden
 }
 
 #particles-js canvas {
