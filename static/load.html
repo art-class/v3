@@ -28,6 +28,13 @@
   <script src="./uv/uv.config.js"></script>
   <script src="./data/games.js"></script>
   <script src="./data/apps.js"></script>
+  <script src="js/cloak.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+      server: '967446591373983804', // Art Class
+      channel: '1074366934356852896' // #〈💬〉guest-chat
+    })
+  </script>
 
   <script>
     const params = new URLSearchParams(window.location.search)
@@ -46,7 +53,7 @@
     } else if (params.get("app")) {
       apps.forEach(app => {
         if (app.id != params.get("app")) return
-        document.title = `${ap.title} | Art Class`
+        document.title = `${app.title} | Art Class`
         navigator.serviceWorker.register('./loadsw.js', {
           scope: __uv$config.prefix
           
