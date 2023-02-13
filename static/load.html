@@ -59,7 +59,7 @@
           
         }).then(() => {
           document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
-          document.querySelector(".msg")[0].remove()   
+          document.querySelector("#loadingdiv")[0].remove()   
         });
       })
     }
