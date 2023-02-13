@@ -1,2 +1,2 @@
-# Eclipse
-Official flagship proxy of Art Class
+# Art Class
+Official website of Art Class
