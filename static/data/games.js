@@ -43,5 +43,25 @@ var games = [
     'id': 'subwaysurfers',
     'title': 'Subway Surfers',
     'url': 'https://yell0wsuit.page/assets/games/subway-surfers-unity'
+  },
+  {
+    'id': '8ballpool',
+    'title': '8 Ball Pool',
+    'url': 'https://8ball-pool.io'
+  },
+  {
+    'id': 'fruitninja',
+    'title': 'Fruit Ninja',
+    'url': 'https://yell0wsuit.page/assets/games/fruitninja'
+  },
+  {
+    'id': 'chromedino',
+    'title': "Chrome Dino Game",
+    'url': 'https://yell0wsuit.page/assets/games/chrome-dino'
+  },
+  {
+    'id': 'doodlejump',
+    'title': 'Doodle Jump',
+    'url': 'https://yell0wsuit.page/assets/games/doodle-jump'
   }
 ]

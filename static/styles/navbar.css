@@ -6,6 +6,7 @@ nav {
   align-items: center;
   padding: 0 20px;
   border-radius: 5px;
+  margin: 5px;
 }
 .container {
   display: flex;
