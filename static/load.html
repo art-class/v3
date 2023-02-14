@@ -64,6 +64,14 @@
           document.querySelector("#loadingdiv")[0].remove()   
         });
       })
+    } else if (params.get('url')) {
+      navigator.serviceWorker.register('./loadsw.js', {
+        scope: __uv$config.prefix
+        
+      }).then(() => {
+        document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(params.get("url"));
+        document.querySelector("#loadingdiv")[0].remove()   
+      });
     }
   
   </script>
