@@ -13,6 +13,10 @@ a {
   font-family: "DM Sans";
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #333
 }
 
 .link {
