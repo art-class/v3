@@ -48,5 +48,10 @@ var apps = [
     'id': 'spotify',
     'title': 'Spotify',
     'url': 'https://open.spotify.com/browse'
+  },
+  {
+    'id': 'chess',
+    'title': 'Chess.com',
+    'url': 'https://chess.com'
   }
 ]
