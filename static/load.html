@@ -30,11 +30,13 @@
   </div>
   
   
-  <iframe id="frame"></iframe> 
-  <p>Copyright &copy; 2023 Art Class <br>
-  All games and apps are copyright their respective owners</p>
-  <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a>
-  <br>
+  <iframe id="frame"></iframe>
+  <div id="footer">
+    <p>Copyright &copy; 2023 Art Class <br>
+    All games and apps are copyright their respective owners</p>
+    <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a>
+    <br>
+  </div>
   
   <script src="./uv/uv.bundle.js"></script>
   <script src="./uv/uv.config.js"></script>
@@ -59,6 +61,7 @@
         }).then(() => {
           document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(game.url);
           document.querySelector("#loadingdiv")[0].remove()
+          if (game.fullscreen) document.querySelector("#footer").style.display = "none"
         });
         
       })
@@ -71,7 +74,8 @@
           
         }).then(() => {
           document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
-          document.querySelector("#loadingdiv")[0].remove()   
+          document.querySelector("#loadingdiv")[0].remove()
+          if (app.fullscreen) document.querySelector("#footer").style.display = "none" 
         });
       })
     } else if (params.get('url')) {
@@ -80,7 +84,7 @@
         
       }).then(() => {
         document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(params.get("url"));
-        document.querySelector("#loadingdiv")[0].remove()   
+        document.querySelector("#loadingdiv")[0].remove()
       });
     }
   
