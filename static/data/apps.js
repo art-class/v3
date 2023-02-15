@@ -15,6 +15,11 @@ var apps = [
     "url": "https://play.geforcenow.com"
   },
   {
+    'id': 'vscode',
+    'title': 'Visual Studio Code',
+    'url': 'https://vscode.dev/'
+  },
+  {
     "id": "tiktok",
     "title": "TikTok",
     "url": "https://tiktok.com"
@@ -40,8 +45,8 @@ var apps = [
     "url": "https://twitter.com"
   },
   {
-    'id': 'chatgpt',
-    'title': 'ChatGPT',
-    'url': 'https://chat.openai.com'
+    'id': 'spotify',
+    'title': 'Spotify',
+    'url': 'https://open.spotify.com/browse'
   }
 ]
