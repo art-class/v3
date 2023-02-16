@@ -25,6 +25,11 @@ var games = [
     'title': 'Retro Bowl'
   },
   {
+    'id': 'roblox',
+    'title': "Roblox",
+    'url': 'https://nowgg.me/roblox/roblox.html'
+  },
+  {
     'id': 'slope',
     'title': 'Slope',
     'url': 'https://mathadventure1.github.io/slope/slope/index.html'
