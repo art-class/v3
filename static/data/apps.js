@@ -53,5 +53,10 @@ var apps = [
     'id': 'chess',
     'title': 'Chess.com',
     'url': 'https://chess.com'
+  },
+  {
+    'id': 'sflix',
+    'title': 'SFlix',
+    'url': 'https://sflix.to'
   }
 ]
