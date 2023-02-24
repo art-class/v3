@@ -32,6 +32,7 @@
   
   <iframe id="frame"></iframe>
   <div id="footer">
+    <p id="text"></p>
     <p>Copyright &copy; 2023 Art Class <br>
     All games and apps are copyright their respective owners</p>
     <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a>
@@ -62,6 +63,7 @@
           document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(game.url);
           document.querySelector("#loadingdiv")[0].remove()
           if (game.fullscreen) document.querySelector("#footer").style.display = "none"
+          if (game.text) document.querySelector("#text").innerHTML = game.text
         });
         
       })
