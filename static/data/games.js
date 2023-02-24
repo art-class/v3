@@ -109,5 +109,10 @@ var games = [
     'id': 'btd4',
     'title': 'Bloons TD 4',
     'url': 'https://raw.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/btd4/index.html'
+  },
+  {
+    'id': 'ovo',
+    'title': 'OvO',
+    'url': 'https://purepro4561.github.io/OvO/'
   }
 ]
