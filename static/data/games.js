@@ -15,11 +15,6 @@ var games = [
     'url': 'https://mazahacka2017.github.io/papas-burgeria/'
   },
   {
-    'id': 'stumbleguys',
-    'title': "Stumble Guys",
-    'url': 'https://nowgg.me/stumble/stumble.html'
-  },
-  {
     'id': 'callofduty',
     'title': 'Call of Duty',
     'url': 'https://nowgg.me/cod/cod.html',
@@ -38,7 +33,7 @@ var games = [
   {
     'id': 'roblox',
     'title': "Roblox",
-    'url': 'https://nowgg.me/roblox/roblox.html'
+    'url': 'https://nowgg.me/old/roblox.html'
   },
   {
     'id': 'slope',
