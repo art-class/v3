@@ -35,11 +35,6 @@ var apps = [
     "url": "https://youtube.com"
   },
   {
-    "id": "google",
-    "title": "Google",
-    "url": "https://google.com"
-  },
-  {
     "id": "twitter",
     "title": "Twitter",
     "url": "https://twitter.com"
@@ -60,3 +55,5 @@ var apps = [
     'url': 'https://sflix.to'
   }
 ]
+
+console.log("Loaded " + apps.length + " apps")

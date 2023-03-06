@@ -21,19 +21,59 @@ var games = [
     'text': 'May take a while to load'
   },
   {
+    'id': 'jetpackjoyride',
+    'title': 'Jetpack Joyride',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/jetpack-joyride/index.html'
+  },
+  {
+    'id': 'fnf',
+    'title': 'Friday Night Funkin',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/fridaynightfunkin/index.html'
+  },
+  {
+    'id': 'paperio2',
+    'title': 'Paper.io 2',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/paperio2/index.html'
+  },
+  {
     'id': 'impossiblequiz',
     'title': 'The Impossible Quiz',
     'url': 'https://proudparrot2.github.io/msg-archive/g_mes/impossiblequiz1/impossiblequiz1/index.html'
   },
   {
+    'id': 'ducklife4',
+    'title': 'Duck Life 4',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/ducklife4/index.html'
+  },
+  {
     'id': 'retrobowl',
-    'url': 'https://proudparrot2.github.io/retro-bowl/retro-bowl/index.html',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/retro-bowl/index.html',
     'title': 'Retro Bowl'
+  },
+  {
+    'id': 'templerun2',
+    'title': 'Temple Run 2',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/temple-run-2/index.html'
+  },
+  {
+    'id': 'minecraft',
+    'title': 'Minecraft Classic',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/minecraft-classic/index.html'
+  },
+  {
+    'id': 'smashkarts',
+    'title': 'Smash Karts',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/smash-karts/index.html'
   },
   {
     'id': 'roblox',
     'title': "Roblox",
     'url': 'https://nowgg.me/old/roblox.html'
+  },
+  {
+    'id': 'tunnelrush',
+    'title': 'Tunnel Rush',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/temple-run-2/index.html'
   },
   {
     'id': 'slope',
@@ -56,6 +96,16 @@ var games = [
     'url': 'https://yell0wsuit.page/assets/games/subway-surfers-unity'
   },
   {
+    'id': 'geometrydash',
+    'title': 'Geometry Dash',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/geodash/index.html'
+  },
+  {
+    'id': 'idlecraft',
+    'title': 'Idlecraft',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/grindcraft/index.html'
+  },
+  {
     'id': '8ballpool',
     'title': '8 Ball Pool',
     'url': 'https://8ball-pool.io'
@@ -74,6 +124,11 @@ var games = [
     'id': 'doodlejump',
     'title': 'Doodle Jump',
     'url': 'https://yell0wsuit.page/assets/games/doodle-jump'
+  },
+  {
+    'id': 'cookieclicker',
+    'title': 'Cookie Clicker',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/cookie-clicker/index.html',
   },
   {
     'id': 'slither',
@@ -103,11 +158,23 @@ var games = [
   {
     'id': 'btd4',
     'title': 'Bloons TD 4',
-    'url': 'https://raw.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/btd4/index.html'
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d1a97cbddcf69b15adf2ab4a491df717ecf22938/btd4/index.html'
   },
   {
     'id': 'ovo',
     'title': 'OvO',
     'url': 'https://purepro4561.github.io/OvO/'
+  },
+  {
+    'id': 'dogeminer',
+    'title': "Doge Miner",
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/DogeMiner/index.html'
+  },
+  {
+    'id': 'aquapark',
+    'title': 'Aquapark Slides',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/aquapark-slides/index.html'
   }
 ]
+
+console.log("Loaded " + games.length + " games")
