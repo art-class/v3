@@ -35,7 +35,7 @@
     <p id="text"></p>
     <p>Copyright &copy; 2023 Art Class <br>
     All games and apps are copyright their respective owners</p>
-    <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a>
+    <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a> <a class="link2" id="hidecrate"><i class="fa-solid fa-eye-slash"></i> Toggle Widgetbot</a>
     <br>
   </div>
   
@@ -49,9 +49,29 @@
       server: '967446591373983804', // Art Class
       channel: '1074366934356852896' // #〈💬〉guest-chat
     })
+    alert("a")
+    document.querySelector("#hidecrate").addEventListener("click", () => {
+      if (localStorage.getItem("crate") == "yes") {
+        crate.hide()
+        localStorage.setItem("crate", "no")
+      } else if (localStorage.getItem("crate") == "no") {
+        crate.show()
+        localStorage.setItem("crate", "yes")
+      } else {
+        localStorage.setItem("crate", "yes")
+      }
+    })
+
+    if (localStorage.getItem("crate") == "yes") {
+      crate.show()
+    } else if (localStorage.getItem("crate") == "no") {
+      crate.hide()
+    }
+    
   </script>
 
   <script>
+    
     const params = new URLSearchParams(window.location.search)
     if (params.get("game")) {
       games.forEach(game => {
@@ -88,8 +108,22 @@
         document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(params.get("url"));
         document.querySelector("#loadingdiv")[0].remove()
       });
+    } else if (params.get("app")) {
+      apps.forEach(app => {
+        if (app.id != params.get("app")) return
+        document.title = `${app.title} | Art Class`
+        navigator.serviceWorker.register('./loadsw.js', {
+          scope: __uv$config.prefix
+          
+        }).then(() => {
+          document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(app.url);
+          document.querySelector("#loadingdiv")[0].remove()
+          if (app.fullscreen) document.querySelector("#footer").style.display = "none" 
+        });
+      })
     }
-  
+    
+    
   </script>
 </body>
 

@@ -176,12 +176,7 @@ input:checked+.slider:before {
   flex: 1 1 160px;
 }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+
 
 
 #particles-js canvas {
