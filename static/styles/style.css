@@ -156,6 +156,13 @@ input:checked+.slider:before {
   margin-top: 5px;
 }
 
+.card img {
+  aspect-ratio: 1 / 1;
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
 .card {
   border-radius: 3vh;
   font-family: "DM Sans";

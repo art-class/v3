@@ -20,8 +20,17 @@
 </head>
 
 <style>
-  html, body {
-    overflow: auto;
+  body, html {
+    height: 100vh;
+  }
+
+  #list {
+    margin-bottom: 30px;
+  }
+
+  .text {
+    width: 600px;
+    text-align: center;
   }
 </style>
 
@@ -34,8 +43,10 @@
   <script src="js/navbar.js"></script>
   
   <h1>Games</h1>
-  <hr width="200px;">
-  <p id="list"></p>
+  <input type="text" class="text" id="search" placeholder="Search" />
+  <div id="homepage-cards"></div>
+
+  </div>
   <footer>Copyright &copy; 2023 Art Class</footer>
 
   <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
@@ -48,11 +59,34 @@
   <script src="data/games.js"></script>
   <script>
     games.forEach(game => {
-      var link = document.createElement("a")
-      link.classList.add("link")
-      link.href = `/load.html?game=${game.id}`
-      link.innerHTML = `${game.title} <br>`
-      document.querySelector("#list").appendChild(link)
+      var card = document.createElement("div")
+      var image = document.createElement("img")
+      var text = document.createElement("h4")
+      card.classList.add("card")
+      card.onclick = `window.location.href = '/load.html?game=${game.id}'`
+      if (game.image) image.src = game.image
+      if (!game.image) image.src = "https://via.placeholder.com/200"
+      text.innerHTML = game.title
+      card.appendChild(image)
+      card.appendChild(text)
+      document.querySelector("#homepage-cards").appendChild(card)
     })
+
+    const searchInput = document.querySelector('#search');
+    const items = document.querySelectorAll('.card');
+    
+    searchInput.addEventListener('input', function(event) {
+      const query = event.target.value.toLowerCase();
+      
+      items.forEach(function(item) {
+        const title = item.querySelector('.card h4').textContent.toLowerCase();
+        
+        if (title.includes(query)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
   </script>
 </body>
