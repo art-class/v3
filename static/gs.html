@@ -63,7 +63,9 @@
       var image = document.createElement("img")
       var text = document.createElement("h4")
       card.classList.add("card")
-      card.onclick = `window.location.href = '/load.html?game=${game.id}'`
+      card.addEventListener("click", () => {
+        window.location.href = `/load.html?game=${game.id}`
+      })
       if (game.image) image.src = game.image
       if (!game.image) image.src = "https://via.placeholder.com/200"
       text.innerHTML = game.title

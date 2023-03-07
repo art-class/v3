@@ -58,15 +58,17 @@
   
   <script src="data/apps.js"></script>
   <script>
-    apps.forEach(game => {
+    apps.forEach(app => {
       var card = document.createElement("div")
       var image = document.createElement("img")
       var text = document.createElement("h4")
       card.classList.add("card")
-      card.onclick = `window.location.href = '/load.html?game=${game.id}'`
-      if (game.image) image.src = game.image
-      if (!game.image) image.src = "https://via.placeholder.com/200"
-      text.innerHTML = game.title
+      card.addEventListener("click", () => {
+        window.location.href = `/load.html?app=${app.id}`
+      })
+      if (app.image) image.src = app.image
+      if (!app.image) image.src = "https://via.placeholder.com/200"
+      text.innerHTML = app.title
       card.appendChild(image)
       card.appendChild(text)
       document.querySelector("#homepage-cards").appendChild(card)
