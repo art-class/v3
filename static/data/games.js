@@ -10,13 +10,13 @@ var games = [
   {
     'id': 'cuttherope',
     'title': 'Cut the Rope',
-    'url': 'https://yell0wsuit.page/assets/games/CutTheRope/',
+    'url': 'https://yell0wsuit.page/assets/games/CutTheRope',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
     'id': 'papaburgers',
     'title': 'Papa\'s Burgeria',
-    'url': 'https://mazahacka2017.github.io/papas-burgeria/',
+    'url': 'https://mazahacka2017.github.io/papas-burgeria',
     'image': 'https://i.flipline.com/gamefiles/papasburgeriatogo/app_upsell_C.jpg'
   },
   {
@@ -76,7 +76,7 @@ var games = [
   {
     'id': 'roblox',
     'title': "Roblox",
-    'url': 'https://nowgg.vercel.app/',
+    'url': 'https://nowgg.vercel.app',
     'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht',
     'note': 'If Roblox does not load or only shows an image, it is down <br>Do not report it - we have no control over it'
   },
@@ -191,7 +191,7 @@ var games = [
   {
     'id': 'ovo',
     'title': 'OvO',
-    'url': 'https://purepro4561.github.io/OvO/',
+    'url': 'https://purepro4561.github.io/OvO',
     'image': 'https://play-lh.googleusercontent.com/v7KwGdPjJGjJjRXn46sck4DwDBdKSeRzGN44CjiXUtKV0jjOi51Bt4wcXud0m-SkXg=w240-h480-rw'
   },
   {
