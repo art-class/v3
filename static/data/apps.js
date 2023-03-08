@@ -31,6 +31,12 @@ var apps = [
     'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
   },
   {
+    'id': 'nowgg',
+    'title': 'now.gg',
+    'url': 'https://nowgg.vercel.app/',
+    'image': 'https://uploads-ssl.webflow.com/60f008ba9757da0940af288e/6232d610e4172bed260d4cfd_9Dw5vXGi_400x400.jpeg'
+  },
+  {
     "id": "reddit",
     "title": "Reddit",
     "url": "https://reddit.com",

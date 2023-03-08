@@ -20,13 +20,6 @@ var games = [
     'image': 'https://i.flipline.com/gamefiles/papasburgeriatogo/app_upsell_C.jpg'
   },
   {
-    'id': 'callofduty',
-    'title': 'Call of Duty',
-    'url': 'https://nowgg.me/cod/cod.html',
-    'text': 'May take a while to load',
-    'image': 'https://assets-prd.ignimgs.com/2022/05/24/call-of-duty-modern-warfare-2-button-02-1653417394041.jpg'
-  },
-  {
     'id': 'jetpackjoyride',
     'title': 'Jetpack Joyride',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/jetpack-joyride/index.html',
@@ -60,7 +53,7 @@ var games = [
     'id': 'retrobowl',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/retro-bowl/index.html',
     'title': 'Retro Bowl',
-    'image': 'https://o.remove.bg/downloads/aceea854-4c9e-4d0c-b61c-5d72a33a7ec2/image-removebg-preview.png'
+    'image': 'https://play-lh.googleusercontent.com/WRM5Y1xZmzcCP1YtO5zl6G2g7CU5c5ZfjX4UVrgi1bpNgkfy-wuB-bQx3kkeRfaGYQ'
   },
   {
     'id': 'templerun2',
@@ -83,8 +76,9 @@ var games = [
   {
     'id': 'roblox',
     'title': "Roblox",
-    'url': 'https://nowgg.me/old/roblox.html',
-    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
+    'url': 'https://nowgg.vercel.app/',
+    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht',
+    'note': 'If Roblox does not load or only shows an image, it is down <br>Do not report it - we have no control over it'
   },
   {
     'id': 'tunnelrush',

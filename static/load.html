@@ -24,7 +24,8 @@
       <div class="lds-dual-ring"></div>
       <!--<img src="icon.gif" class="lds-dual-ring" />-->
       <p class="info">
-        Loading content, please be patient!
+        Loading content, please be patient! <br> <br>
+        <span id="note"></span>
       </p>
     </div>
   </div>
@@ -32,7 +33,6 @@
   
   <iframe id="frame"></iframe>
   <div id="footer">
-    <p id="text"></p>
     <p>Copyright &copy; 2023 Art Class <br>
     All games and apps are copyright their respective owners</p>
     <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a> <a class="link2" id="hidecrate"><i class="fa-solid fa-eye-slash"></i> Toggle Widgetbot</a>
@@ -76,13 +76,15 @@
       games.forEach(game => {
         if (game.id != params.get("game")) return
         document.title = `${game.title} | Art Class`
+        if (game.note) document.querySelector("#note").innerHTML = game.note
+        if (game.fullscreen) document.querySelector("#footer").style.display = "none"
         navigator.serviceWorker.register('./loadsw.js', {
           scope: __uv$config.prefix
         }).then(() => {
           document.querySelector("#frame").src = __uv$config.prefix + __uv$config.encodeUrl(game.url);
           document.querySelector("#loadingdiv")[0].remove()
-          if (game.fullscreen) document.querySelector("#footer").style.display = "none"
-          if (game.text) document.querySelector("#text").innerHTML = game.text
+          
+          
         });
         
       })
