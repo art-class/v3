@@ -70,15 +70,14 @@ var games = [
   {
     'id': 'smashkarts',
     'title': 'Smash Karts',
-    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/smash-karts/index.html',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/d108460237587095c92fe0968f1595f30cf5a5cc/smashkarts/index.html',
     'image': 'https://geometry-dash.co/upload/imgs/smash-karts-logo.png'
   },
   {
     'id': 'roblox',
     'title': "Roblox",
     'url': 'https://nowgg.vercel.app',
-    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht',
-    'note': 'If Roblox does not load or only shows an image, it is down <br>Do not report it - we have no control over it'
+    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
   },
   {
     'id': 'tunnelrush',
