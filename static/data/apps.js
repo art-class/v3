@@ -33,7 +33,7 @@ var apps = [
   {
     'id': 'nowgg',
     'title': 'now.gg',
-    'url': 'https://nowgg.vercel.app/',
+    'url': 'https://nowgg.me/',
     'image': 'https://uploads-ssl.webflow.com/60f008ba9757da0940af288e/6232d610e4172bed260d4cfd_9Dw5vXGi_400x400.jpeg',
     'note': 'now.gg is currently broken. Check back later.'
   },
