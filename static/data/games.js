@@ -26,12 +26,6 @@ var games = [
     'image': 'https://i.flipline.com/gamefiles/papasburgeriatogo/app_upsell_C.jpg'
   },
   {
-    'id': 'papasicecream',
-    'title': 'Papa\'s Scooperia',
-    'url': 'https://dynamicruffle.vercel.app/?play=papascoop',
-    'image': 'https://play-lh.googleusercontent.com/KpLBHo89bWG3jmuYb_KqDD1rZSY4XzXcHiMLZ1PCv83GMwVMcJluuuXrT32oQGCo51A'
-  },
-  {
     'id': 'jetpackjoyride',
     'title': 'Jetpack Joyride',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/jetpack-joyride/index.html',
