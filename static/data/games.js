@@ -216,7 +216,7 @@ var games = [
     'title': 'aquapark.io',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/aquapark-slides/index.html',
     'image': 'https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6'
-  }
+  },
 ]
 
 console.log("Loaded " + games.length + " games")
