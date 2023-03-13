@@ -94,7 +94,7 @@ var games = [
   {
     'id': 'tunnelrush',
     'title': 'Tunnel Rush',
-    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/temple-run-2/index.html',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e00403015397cb588f42d3a461b5ac9503dd7c2d/tunnel-rush/index.html',
     'image': 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
   },
   {
