@@ -71,6 +71,12 @@ var apps = [
     'title': 'SFlix',
     'url': 'https://sflix.to',
     'image': 'https://play-lh.googleusercontent.com/YO-cgAQEdDuX9xvEYNOdPfc0-Nxzvz4vZaIt9eBOWoh2VTPHe8eHX6byn5b94X3gpcI=s200'
+  },
+  {
+    'id': 'coolmathgames',
+    'title': 'Cool Math Games',
+    'url': 'https://coolmathgames.com',
+    'image': 'https://docs.google.com/drawings/d/e/2PACX-1vR6y2GvcGu9PdrX9zzE24dhm24hClcNsdAmZjIgSUC8sFOahf6t7Yg6l_W8Rd4GduWOH_X02GHVFdBb/pub?w=512&h=512'
   }
 ]
 
