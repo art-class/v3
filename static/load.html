@@ -35,7 +35,7 @@
   <div id="footer">
     <p>Copyright &copy; 2023 Art Class <br>
     All games and apps are copyright their respective owners</p>
-    <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a> <a class="link2" id="hidecrate"><i class="fa-solid fa-eye-slash"></i> Toggle Widgetbot</a>
+    <br> <a class="link2" href="/"><i class="fa-solid fa-house"></i> Home</a> <!--<a class="link2" id="hidecrate"><i class="fa-solid fa-eye-slash"></i> Toggle Widgetbot</a>-->
     <br>
   </div>
   
@@ -44,30 +44,7 @@
   <script src="./data/games.js"></script>
   <script src="./data/apps.js"></script>
   <script src="js/cloak.js"></script>
-  <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-    new Crate({
-      server: '967446591373983804', // Art Class
-      channel: '1074366934356852896' // #〈💬〉guest-chat
-    })
-    document.querySelector("#hidecrate").addEventListener("click", () => {
-      if (localStorage.getItem("crate") == "yes") {
-        crate.hide()
-        localStorage.setItem("crate", "no")
-      } else if (localStorage.getItem("crate") == "no") {
-        crate.show()
-        localStorage.setItem("crate", "yes")
-      } else {
-        localStorage.setItem("crate", "yes")
-      }
-    })
-
-    if (localStorage.getItem("crate") == "yes") {
-      crate.show()
-    } else if (localStorage.getItem("crate") == "no") {
-      crate.hide()
-    }
-    
-  </script>
+  
 
   <script>
     

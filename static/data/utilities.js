@@ -18,10 +18,5 @@ var utilities = [
     'id': 'gbaemulator',
     'title': 'GBA Emulator',
     'url': '/load.html?url=https://cattn.github.io/gba'
-  },
-  {
-    'id': 'widgetbot',
-    'title': 'Widgetbot (our Discord server)',
-    'url': '/utils/widgetbot.html'
   }
 ]
