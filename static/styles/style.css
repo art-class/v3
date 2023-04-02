@@ -1,4 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Silkscreen&family=Press+Start+2P&family=Source+Code+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+hr {
+  margin: 15px auto;
+}
 
 body {
   font-family: "DM Sans";
@@ -176,7 +187,7 @@ input:checked+.slider:before {
 
 .card:hover {
   box-shadow: 2px 2px 13px #575b5c;
-  transform: scale(1.05);
+  /*transform: scale(1.05);*/
 }
 
 .card>* {
@@ -188,7 +199,6 @@ input:checked+.slider:before {
 
 #particles-js canvas {
   display: block;
-  vertical-align: bottom;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -216,4 +226,80 @@ canvas {
   font-size: 25px;
   margin-right: 10px;
   font-weight: bold;
+}
+
+.homebutton {
+  width: 200px;
+
+  margin: 20px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: 0.4s all;
+}
+
+#container {
+  height: calc(100vh - (75px + 15px));
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+#gameInfo {
+  width: 25%;
+  height: 100%;
+}
+
+#frame {
+  width: 75%;
+  height: 100%;
+}
+#gameInfo .yes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 15% auto;
+}
+
+#gameInfo div img {
+  aspect-ratio: 1 / 1;
+  height: 75px;
+  border-radius: 5px;
+}
+
+#gameInfo div h3 { margin-left: 15px; }
+
+#gameInfo { position: relative; }
+
+#gameInfo #menubtns {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+#menubtns button {
+  border: 3px solid white;
+  font-family: "DM Sans";
+  padding: 7px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: 0.4s all;
+  margin: 5px 5px;
+}
+
+#menubtns button:hover {
+  opacity: 1;
+  scale: 1.1;
+}
+
+#gameInfo #gameDescription {
+  margin: 15px;
 }

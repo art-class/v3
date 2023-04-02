@@ -4,12 +4,13 @@ var games = [
   {
     'id': 'idlebreakout',
     'title': 'Idle Breakout',
-    'url': 'https://sobloxsy.github.io/idle-breakout',
+    'url': 'https://glitchyeet.github.io/IdleBreakout/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
     'id': 'fbwg',
-    'title': 'Fireboy and Watergirl (Crystal Temple)',
+    'title': 'Fireboy and Watergirl',
+    'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
     'url': 'https://educationgg-23704.web.app/games/FBWG4-main/index.html',
     'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
   },
@@ -74,6 +75,25 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/go4XqS4mYs-G2tZymiVLF4wJYXIi5QrvwixNRzssk4G_vRBHrAdg4E1ddNwy9c2cZA'
   },
   {
+    'id': 'justfall',
+    'title': 'Just Fall',
+    'description': 'Just Fall is a game similar to Fall Guys, where you compete in minigames to be the sole winner',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/just-fall/index.html',
+    'image': 'https://play-lh.googleusercontent.com/-0rSllZ8as88Jcs3iZ7-JCFyTb3YLB-HjR7bY7P6q_2MAswmDH4h1qNPfFiaZqzkkg'
+  },
+  {
+    'id': 'sm64',
+    'title': 'Super Mario 64',
+    'url': 'https://github.com/3kh0/3kh0-Assets/blob/main/sm64/index.html',
+    'image': 'https://assets1.ignimgs.com/2019/05/31/mario-64---button-1559263987447.jpg'
+  },
+  {
+    'id': 'snowball',
+    'title': 'snowball.io',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/snowbattle/index.html',
+    'image': 'https://play-lh.googleusercontent.com/X8FEOENa_t5mlRllBh2RRLc6sMnPIq56Wxa2ndValDOmwzIRhAv7MG6fT97TLQ2DK48'
+  },
+  {
     'id': 'minecraft',
     'title': 'Minecraft Classic',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/minecraft-classic/index.html',
@@ -118,7 +138,7 @@ var games = [
   {
     'id': 'subwaysurfers',
     'title': 'Subway Surfers',
-    'url': 'https://yell0wsuit.page/assets/games/subway-surfers-unity',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/subway-surfers/index.html',
     'image': 'https://cdnb.artstation.com/p/assets/images/images/040/799/939/large/celine-j-1-74-shanghai-icon-1024-x.jpg?1629908071'
   },
   {

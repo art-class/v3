@@ -15,6 +15,7 @@
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/hover.css">
   <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
 </head>
@@ -53,6 +54,8 @@
   
   
   <script src="data/games.js"></script>
+  <script src="data/hovereffects.js"></script>
+  
   <script>
     games.forEach(game => {
       var card = document.createElement("div")
@@ -68,6 +71,9 @@
       card.appendChild(image)
       card.appendChild(text)
       document.querySelector("#homepage-cards").appendChild(card)
+      
+      //card.classList.add(`hvr-${effects[Math.floor(Math.random() * effects.length)]}`)
+      card.classList.add("hvr-bob")
     })
 
     const searchInput = document.querySelector('#search');
