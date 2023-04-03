@@ -7,6 +7,12 @@ var games = [
     'url': 'https://glitchyeet.github.io/IdleBreakout/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
+   {
+    'id': 'doe',
+    'title': 'Dr Does Chemistry Quiz',
+    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/doe/index.html',
+    'image': 'https://i.ytimg.com/vi/baY_mPOLAME/maxresdefault.jpg'
+  },
     {
     'id': 'run3',
     'title': 'Run 3',
