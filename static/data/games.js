@@ -35,7 +35,7 @@ var games = [
   {
     'id': 'cuttherope',
     'title': 'Cut the Rope',
-    'url': 'https://yell0wsuit.page/assets/games/CutTheRope',
+    'url': 'https://raw.githack.com/yell0wsuit/CutTheRope/master/index.html',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
