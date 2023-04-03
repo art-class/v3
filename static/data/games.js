@@ -7,6 +7,24 @@ var games = [
     'url': 'https://glitchyeet.github.io/IdleBreakout/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
+    {
+    'id': 'run3',
+    'title': 'Run 3',
+    'url': 'https://raw.githack.com/3kh0/3kh0-Assets/main/run%203/Run%203.html',
+    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN/run%203/image_proxy.jpg'
+  },
+  {
+    'id': 'run2',
+    'title': 'Run 2',
+    'url': 'https://raw.githack.com/3kh0/3kh0-Assets/main/Run%202/index.html',
+    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN/Run%202/run-2-logo.jpg'
+  },
+   {
+    'id': 'run',
+    'title': 'Run',
+    'url': 'https://raw.githack.com/3kh0/3kh0-Assets/main/run/index.html',
+    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN/run/run.png'
+  },
   {
     'id': 'fbwg',
     'title': 'Fireboy and Watergirl',
