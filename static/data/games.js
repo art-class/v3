@@ -8,6 +8,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
+    'id': 'marunf',
+    'title': 'Unfair Mario',
+    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/webretro/index.html',
+    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/unfairmario/sus.jpg'
+  },
+  {
     'id': 'piclient',
     'title': 'PiClient',
     'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/piclient/piclient.html',
