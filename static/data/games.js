@@ -7,7 +7,12 @@ var games = [
     'url': 'https://glitchyeet.github.io/IdleBreakout/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
-  
+  {
+    'id': 'piclient',
+    'title': 'PiClient',
+    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/piclient/piclient.html',
+    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/piclient/B969467B-2495-4872-A739-B6ECA873FF5A.jpeg'
+  },
   {
     'id': 'webretro',
     'title': 'Webretro',
