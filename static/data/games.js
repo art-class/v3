@@ -35,7 +35,7 @@ var games = [
   {
     'id': 'youarebezos',
     'title': 'You are Bezos',
-    'url': 'https://github.com/3kh0/3kh0-Assets/blob/main/you-are-bezos/index.html',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/you-are-bezos/index.html',
     'image': 'https://img.itch.zone/aW1nLzE1NzI2NjIucG5n/original/Equhiy.png'
   },
   {
