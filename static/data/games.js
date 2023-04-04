@@ -1,4 +1,10 @@
-// hello
+// 
+
+/* GAMES TO ADD
+
+
+
+*/
 
 var games = [
   {
@@ -6,6 +12,12 @@ var games = [
     'title': 'Idle Breakout',
     'url': 'https://glitchyeet.github.io/IdleBreakout/',
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
+  },
+  {
+    'id': 'thereisnogame',
+    'title': 'There Is No Game',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/there-is-no-game/index.html',
+    'image': 'https://play-lh.googleusercontent.com/a6DfrYUL6viV0LAZFplqqA44gE0LHE0PyDnKHgdlydiUvccwzSBWrmRQSx5cjdL74Us=w240-h480-rw'
   },
   {
     'id': 'fbwg',
@@ -19,6 +31,12 @@ var games = [
     'title': 'Cut the Rope',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
+  },
+  {
+    'id': 'youarebezos',
+    'title': 'You are Bezos',
+    'url': 'https://github.com/3kh0/3kh0-Assets/blob/main/you-are-bezos/index.html',
+    'image': 'https://img.itch.zone/aW1nLzE1NzI2NjIucG5n/original/Equhiy.png'
   },
   {
     'id': 'papaburgers',
@@ -37,6 +55,26 @@ var games = [
     'title': 'Jetpack Joyride',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/jetpack-joyride/index.html',
     'image': 'https://play-lh.googleusercontent.com/Pl2nmu5U9CH3NQqLBTjnokoV325zESrX6KIaHrwSqREEJDWIv1yJpRCXzl9r3oMnEWHC',
+  },
+  {
+    'id': 'shellshockers',
+    'title': 'Shell Shockers',
+    'description': 'Shell Shockers is unique online shooter in first-person perspective where all the characters are represented exclusively by eggs.',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/shellshockers/index.html',
+    'image': 'https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q'
+  },
+  {
+    'id': 'motox3m',
+    'title': 'MotoX3M',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/motox3m/index.html',
+    'image': 'https://play-lh.googleusercontent.com/AbQMuT4ncBfWDqNF-4ubmfaRag59nrW3fJARDsHK51_PENScmWCnMFeQX81wfPlfGBo'
+  },
+  {
+    'id': 'thefinalearth',
+    'title': 'The Final Earth',
+    'description': 'Earth has been destroyed. It\'s a good thing you teleported to a new planet, also known as The Final Earth. Gather resources and build a colony',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/the-final-earth/index.html',
+    'image': 'https://img.itch.zone/aW1nLzIyMTU1NDAucG5n/original/6vGlZe.png'
   },
   {
     'id': 'fnf',
@@ -73,6 +111,19 @@ var games = [
     'title': 'Temple Run 2',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/temple-run-2/index.html',
     'image': 'https://play-lh.googleusercontent.com/go4XqS4mYs-G2tZymiVLF4wJYXIi5QrvwixNRzssk4G_vRBHrAdg4E1ddNwy9c2cZA'
+  },
+  {
+    'id': 'stickmanhook',
+    'title': 'Stickman Hook',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/stickman-hook/index.html',
+    'image': 'https://play-lh.googleusercontent.com/yXqBI1Vb1b-xjwmXLE2T7FQbgHIxfvjze1b6jO2aLHfy8Y8ta7NFSEVqZoPHtM2Ajyrl'
+  },
+  {
+    'id': 'run3',
+    'title': 'Run 3',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/run%203/Run%203.html',
+    'image': 'https://play-lh.googleusercontent.com/A97ygyZMgnoapGfPhWZn9QBMsrskPuPQmJqeEtROZWnbQRfAOZZlhtP-UBWxaKtMI6U',
+    'description': 'Run 3 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
   {
     'id': 'justfall',
@@ -121,7 +172,14 @@ var games = [
     'id': 'fireandice',
     'title': 'A Dance of Fire and Ice',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/a-dance-of-fire-and-ice/index.html',
+    'image': 'https://play-lh.googleusercontent.com/L8rCly8hMWuP95PbihDZlSV2u0oGrs0hl2lEXboO7XHX2XalJZ1rjgOsFYXnEDWbpQ',
     'description': 'A Dance of Fire and Ice is a simple one-button rhythm game. Press on every beat of the music to move in a line. Every pattern has its own rhythm to it. It can get difficult. This game is purely based on rhythm, so use your ears more than your sight.'
+  },
+  {
+    'id': 'escapeprison',
+    'title': 'Escaping the Prison',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/escapingtheprison/index.html',
+    'image': 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
   },
   {
     'id': 'slope',
