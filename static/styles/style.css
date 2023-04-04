@@ -260,7 +260,7 @@ canvas {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 25% auto;
+  margin: 25% 25px;
 }
 
 #gameInfo div img {

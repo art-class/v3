@@ -183,9 +183,14 @@ var games = [
   },
   {
     'id': 'fleeingthecomplex',
-    'title': 'Henry Stickmen: Fleeing the Complex',
+    'title': 'Henry Stickmin: Fleeing the Complex',
     'url': 'https://artclass-assets.vercel.app/fleeingthecompound/index.html',
     'image': 'https://play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
+  },
+  {
+    'id': 'breakingthebank',
+    'title': 'Henry Stickmin: Breaking the Bank',
+    'url': 'https://artclass-assets.vercel.app/breakingthebank/index.html'
   },
   {
     'id': 'slope',
