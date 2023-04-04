@@ -182,6 +182,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
   },
   {
+    'id': 'fleeingthecomplex',
+    'title': 'Fleeing the Complex',
+    'url': 'https://artclass-assets.vercel.app/fleeingthecompound/index.html',
+    'image': 'https://play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
+  },
+  {
     'id': 'slope',
     'title': 'Slope',
     'url': 'https://mathadventure1.github.io/slope/slope/index.html',
