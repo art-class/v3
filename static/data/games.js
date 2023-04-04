@@ -177,13 +177,13 @@ var games = [
   },
   {
     'id': 'escapeprison',
-    'title': 'Escaping the Prison',
+    'title': 'Henry Stickmin: Escaping the Prison',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/escapingtheprison/index.html',
     'image': 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
   },
   {
     'id': 'fleeingthecomplex',
-    'title': 'Fleeing the Complex',
+    'title': 'Henry Stickmen: Fleeing the Complex',
     'url': 'https://artclass-assets.vercel.app/fleeingthecompound/index.html',
     'image': 'https://play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
   },
