@@ -17,7 +17,7 @@ var games = [
   {
     'id': 'cuttherope',
     'title': 'Cut the Rope',
-    'url': 'https://yell0wsuit.page/assets/games/CutTheRope',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
@@ -118,6 +118,12 @@ var games = [
     'image': 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
   },
   {
+    'id': 'fireandice',
+    'title': 'A Dance of Fire and Ice',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/a-dance-of-fire-and-ice/index.html',
+    'description': 'A Dance of Fire and Ice is a simple one-button rhythm game. Press on every beat of the music to move in a line. Every pattern has its own rhythm to it. It can get difficult. This game is purely based on rhythm, so use your ears more than your sight.'
+  },
+  {
     'id': 'slope',
     'title': 'Slope',
     'url': 'https://mathadventure1.github.io/slope/slope/index.html',
@@ -132,7 +138,7 @@ var games = [
   {
     'id': 'crossyroad',
     'title': 'Crossy Road',
-    'url': 'https://yell0wsuit.page/assets/games/crossy-road',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/crossyroad/index.html',
     'image': 'https://cdn.jim-nielsen.com/ios/512/crossy-road-endless-arcade-2014-12-02.png'
   },
   {
@@ -162,13 +168,13 @@ var games = [
   {
     'id': 'fruitninja',
     'title': 'Fruit Ninja',
-    'url': 'https://yell0wsuit.page/assets/games/fruitninja',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/fruitninja/index.html',
     'image': 'https://downloadr2.apkmirror.com/wp-content/uploads/2019/01/5c5122d13cd72.png'
   },
   {
     'id': 'chromedino',
     'title': "Chrome Dino Game",
-    'url': 'https://yell0wsuit.page/assets/games/chrome-dino',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/chrome-dino/index.html',
     'image': 'https://qph.cf2.quoracdn.net/main-qimg-c803e5912e045867b4e2f033c1b57ff9-lq'
   },
   {
