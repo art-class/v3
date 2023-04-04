@@ -138,7 +138,7 @@ var games = [
   {
     'id': 'sm64',
     'title': 'Super Mario 64',
-    'url': 'https://github.com/3kh0/3kh0-Assets/blob/main/sm64/index.html',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/sm64/index.html',
     'image': 'https://assets1.ignimgs.com/2019/05/31/mario-64---button-1559263987447.jpg'
   },
   {
