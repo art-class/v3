@@ -71,8 +71,8 @@ var games = [
   {
     'id': 'cuttherope',
     'title': 'Cut the Rope',
-    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/ctr/index.html',
-    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/ctr/logo.png'
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',
+    'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
     'id': 'papaburgers',
