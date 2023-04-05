@@ -1,4 +1,10 @@
-// hello
+// 
+
+/* GAMES TO ADD
+
+
+
+*/
 
 var games = [
   {
@@ -62,6 +68,12 @@ var games = [
     'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN/run/run.png'
   },
   {
+    'id': 'thereisnogame',
+    'title': 'There Is No Game',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/there-is-no-game/index.html',
+    'image': 'https://play-lh.googleusercontent.com/a6DfrYUL6viV0LAZFplqqA44gE0LHE0PyDnKHgdlydiUvccwzSBWrmRQSx5cjdL74Us=w240-h480-rw'
+  },
+  {
     'id': 'fbwg',
     'title': 'Fireboy and Watergirl',
     'description': 'A 2 player game where you have to work together using logic and teamwork to get to the finish line.',
@@ -73,6 +85,12 @@ var games = [
     'title': 'Cut the Rope',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
+  },
+  {
+    'id': 'youarebezos',
+    'title': 'You are Bezos',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/you-are-bezos/index.html',
+    'image': 'https://img.itch.zone/aW1nLzE1NzI2NjIucG5n/original/Equhiy.png'
   },
   {
     'id': 'papaburgers',
@@ -91,6 +109,26 @@ var games = [
     'title': 'Jetpack Joyride',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/jetpack-joyride/index.html',
     'image': 'https://play-lh.googleusercontent.com/Pl2nmu5U9CH3NQqLBTjnokoV325zESrX6KIaHrwSqREEJDWIv1yJpRCXzl9r3oMnEWHC',
+  },
+  {
+    'id': 'shellshockers',
+    'title': 'Shell Shockers',
+    'description': 'Shell Shockers is unique online shooter in first-person perspective where all the characters are represented exclusively by eggs.',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/shellshockers/index.html',
+    'image': 'https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q'
+  },
+  {
+    'id': 'motox3m',
+    'title': 'MotoX3M',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/motox3m/index.html',
+    'image': 'https://play-lh.googleusercontent.com/AbQMuT4ncBfWDqNF-4ubmfaRag59nrW3fJARDsHK51_PENScmWCnMFeQX81wfPlfGBo'
+  },
+  {
+    'id': 'thefinalearth',
+    'title': 'The Final Earth',
+    'description': 'Earth has been destroyed. It\'s a good thing you teleported to a new planet, also known as The Final Earth. Gather resources and build a colony',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/the-final-earth/index.html',
+    'image': 'https://img.itch.zone/aW1nLzIyMTU1NDAucG5n/original/6vGlZe.png'
   },
   {
     'id': 'fnf',
@@ -127,6 +165,19 @@ var games = [
     'title': 'Temple Run 2',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/temple-run-2/index.html',
     'image': 'https://play-lh.googleusercontent.com/go4XqS4mYs-G2tZymiVLF4wJYXIi5QrvwixNRzssk4G_vRBHrAdg4E1ddNwy9c2cZA'
+  },
+  {
+    'id': 'stickmanhook',
+    'title': 'Stickman Hook',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/stickman-hook/index.html',
+    'image': 'https://play-lh.googleusercontent.com/yXqBI1Vb1b-xjwmXLE2T7FQbgHIxfvjze1b6jO2aLHfy8Y8ta7NFSEVqZoPHtM2Ajyrl'
+  },
+  {
+    'id': 'run3',
+    'title': 'Run 3',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/run%203/Run%203.html',
+    'image': 'https://play-lh.googleusercontent.com/A97ygyZMgnoapGfPhWZn9QBMsrskPuPQmJqeEtROZWnbQRfAOZZlhtP-UBWxaKtMI6U',
+    'description': 'Run 3 is a classic game where you swerve through space in a race to the finish. Play hundreds of new levels in this fast-paced platformer'
   },
   {
     'id': 'justfall',
@@ -172,6 +223,37 @@ var games = [
     'image': 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
   },
   {
+    'id': 'fireandice',
+    'title': 'A Dance of Fire and Ice',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/a-dance-of-fire-and-ice/index.html',
+    'image': 'https://play-lh.googleusercontent.com/L8rCly8hMWuP95PbihDZlSV2u0oGrs0hl2lEXboO7XHX2XalJZ1rjgOsFYXnEDWbpQ',
+    'description': 'A Dance of Fire and Ice is a simple one-button rhythm game. Press on every beat of the music to move in a line. Every pattern has its own rhythm to it. It can get difficult. This game is purely based on rhythm, so use your ears more than your sight.'
+  },
+  {
+    'id': 'escapeprison',
+    'title': 'Henry Stickmin: Escaping the Prison',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/escapingtheprison/index.html',
+    'image': 'https://play-lh.googleusercontent.com/MKW0yzbpA-faDMztP2xkirlXsHwL7QutC_9VyQlbr4VTbPOyCZInL7zYG9EA4XpX4mtM'
+  },
+  {
+    'id': 'fleeingthecomplex',
+    'title': 'Henry Stickmin: Fleeing the Complex',
+    'url': 'https://artclass-assets.vercel.app/fleeingthecompound/index.html',
+    'image': 'https://play-lh.googleusercontent.com/RDk8BpHUESL9J4H-s-07ZC1sNJol8-aZEzz3OEA99PxTYnsZd8038Y-0wRMpCQKDssU'
+  },
+  {
+    'id': 'infiltratingtheairship',
+    'title': 'Henry Stickmin: Infiltrating the Airship',
+    'url': 'https://artclass-assets.vercel.app/infiltratingtheairship/index.html',
+    'image': 'https://play-lh.googleusercontent.com/bRVIDUSlmkDM9ZA9xLczm-PuUa0dYPupAG2ZVNXJvCITc3ZkO7PS-t0qKX1T--7f5-k=w240-h480-rw'
+  },
+  {
+    'id': 'breakingthebank',
+    'title': 'Henry Stickmin: Breaking the Bank',
+    'url': 'https://artclass-assets.vercel.app/breakingthebank/index.html',
+    'image': 'https://play-lh.googleusercontent.com/I9aDLwmiy5iSjeUPs5IDI3lam8iWZ1zVnLF-V_EGvClOLuccjwLNNjZ8xltu4AN60io'
+  },
+  {
     'id': 'slope',
     'title': 'Slope',
     'url': 'https://mathadventure1.github.io/slope/slope/index.html',
@@ -186,7 +268,7 @@ var games = [
   {
     'id': 'crossyroad',
     'title': 'Crossy Road',
-    'url': 'https://yell0wsuit.page/assets/games/crossy-road',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/crossyroad/index.html',
     'image': 'https://cdn.jim-nielsen.com/ios/512/crossy-road-endless-arcade-2014-12-02.png'
   },
   {
@@ -216,13 +298,13 @@ var games = [
   {
     'id': 'fruitninja',
     'title': 'Fruit Ninja',
-    'url': 'https://yell0wsuit.page/assets/games/fruitninja',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/fruitninja/index.html',
     'image': 'https://downloadr2.apkmirror.com/wp-content/uploads/2019/01/5c5122d13cd72.png'
   },
   {
     'id': 'chromedino',
     'title': "Chrome Dino Game",
-    'url': 'https://yell0wsuit.page/assets/games/chrome-dino',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/chrome-dino/index.html',
     'image': 'https://qph.cf2.quoracdn.net/main-qimg-c803e5912e045867b4e2f033c1b57ff9-lq'
   },
   {

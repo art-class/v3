@@ -7,4 +7,7 @@ var splashtexts = [
     "I give up",
     "3kh0 is a W",
     "what are friends?",
+    "no david no",
+    "don't eat that david",
+    ""
 ]
