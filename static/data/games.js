@@ -31,12 +31,6 @@ var games = [
     'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/webretro/index.html',
     'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/webretro/assets/icons/iconm512upscaledm256.png'
   },
-  {
-    'id': 'cmm',
-    'title': 'CMM Client',
-    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/CMM%20Client/CMM%20Client.html',
-    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/CMM%20Client/EC4B216C-B637-41A3-A3D9-79D4048DD7A3.jpeg'
-  },
     {
     'id': 'run3',
     'title': 'Run 3',
