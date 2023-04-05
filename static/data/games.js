@@ -26,12 +26,6 @@ var games = [
     'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/unfairmario/sus.jpg'
   },
   {
-    'id': 'piclient',
-    'title': 'PiClient',
-    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/piclient/piclient.html',
-    'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/piclient/B969467B-2495-4872-A739-B6ECA873FF5A.jpeg'
-  },
-  {
     'id': 'webretro',
     'title': 'Webretro',
     'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/webretro/index.html',
@@ -42,12 +36,6 @@ var games = [
     'title': 'CMM Client',
     'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/CMM%20Client/CMM%20Client.html',
     'image': 'https://cdn.jsdelivr.net/gh/Rahib777-7/3kh0-AssetsAGAIN@main/CMM%20Client/EC4B216C-B637-41A3-A3D9-79D4048DD7A3.jpeg'
-  },
-   {
-    'id': 'doe',
-    'title': 'Dr Does Chemistry Quiz',
-    'url': 'https://raw.githack.com/Rahib777-7/3kh0-AssetsAGAIN/main/doe/index.html',
-    'image': 'https://i.ytimg.com/vi/baY_mPOLAME/maxresdefault.jpg'
   },
     {
     'id': 'run3',
