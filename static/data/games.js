@@ -27,6 +27,13 @@ var games = [
     'image': 'http://m.arcadethunder.com/images/icons/fireboy-and-watergirl-4.jpg'
   },
   {
+    'id': 'osu',
+    'title': 'osu!',
+    'description': 'A web version of osu!',
+    'url': 'https://web-osu.github.io/',
+    'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png',
+  },
+  {
     'id': 'cuttherope',
     'title': 'Cut the Rope',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',

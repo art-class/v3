@@ -78,7 +78,7 @@ button {
 
 }
 
-input {
+#search {
   font-family: "DM Sans";
   background-color: transparent;
   border: 3px solid white;
@@ -180,7 +180,7 @@ input:checked+.slider:before {
   cursor: pointer;
   transition: all 0.3s;
   padding: 1rem;
-  margin: 1rem;
+  margin: 3px;
   text-align: center;
   width: 10%;
 }
@@ -194,6 +194,9 @@ input:checked+.slider:before {
   flex: 1 1 160px;
 }
 
+.description {
+  font-size: 10px;
+}
 
 
 
@@ -301,4 +304,27 @@ canvas {
 
 #gameInfo #gameDescription {
   margin: 15px;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 2px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
