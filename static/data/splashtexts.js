@@ -9,5 +9,4 @@ var splashtexts = [
     "what are friends?",
     "no david no",
     "don't eat that david",
-    ""
 ]

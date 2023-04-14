@@ -25,11 +25,14 @@ nav ul {
   top: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 nav ul li {
   margin: 0 10px;
+  transition: all 0.6s;
 }
+
 
 nav a {
   color: #fff;
@@ -38,12 +41,13 @@ nav a {
   margin: 10px;
   /*padding: 10px;*/
   font-family: "DM Sans";
-  transition: border-bottom 0.6s;
+  transition: all 0.6s;
   padding-bottom: 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 nav a:hover {
   color: white;

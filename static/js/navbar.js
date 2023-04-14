@@ -14,16 +14,19 @@ var navbar = `
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <link rel="stylesheet" href="/styles/hover.css" />
 
+<style>
+</style>
+
 <nav>
   <div class="container">
     <img src="/icon.png" alt="Logo" />
     <ul>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/"><ion-icon name="home"></ion-icon> Home</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/gs.html"><ion-icon name="game-controller"></ion-icon> Games</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/apps.html"><ion-icon name="apps"></ion-icon> Apps</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/emulator.html"><ion-icon src="../assets/joystick.svg"></ion-icon> Emulator</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/utils.html"><ion-icon name="hammer"></ion-icon> Utilities</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/settings.html"><ion-icon name="cog"></ion-icon> Settings</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/"><ion-icon class="hvr-icon" name="home"></ion-icon> Home</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/gs.html"><ion-icon class="hvr-icon" name="game-controller"></ion-icon> Games</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/apps.html"><ion-icon class="hvr-icon" name="apps"></ion-icon> Apps</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/emulator.html"><ion-icon class="hvr-icon" src="../assets/joystick.svg"></ion-icon> Emulator</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/utils.html"><ion-icon class="hvr-icon" name="hammer"></ion-icon> Utilities</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center hvr-underline-from-center"><a href="/settings.html"><ion-icon class="hvr-icon" name="cog"></ion-icon> Settings</a></li>
     </ul>
   </div>
 </nav>
