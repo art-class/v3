@@ -3,15 +3,18 @@
 <head>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-G5VBCB2YQN');
-  </script> 
+  </script>
 
   <title>Art Class</title>
   <link rel="icon" href="icon.png">
-  
+
   <meta content="Art Class" property="og:title" />
   <meta content="Your website for school entertainment! Utilize our collection of 50+ games, apps, retro emulator, and more, all unblocked for easy use." property="og:description" />
   <meta content="icon.png" property="og:image" />
@@ -26,7 +29,8 @@
   <script src="https://cdn.counter.dev/script.js" data-id="26de4bec-9f60-4b7f-aa35-2ca7517a3743" data-utcoffset="-6"></script>
 
   <style>
-    body, html {
+    body,
+    html {
       height: 100%;
       margin: 0;
       padding: 0;
@@ -41,64 +45,29 @@
   <script src="js/particles.js"></script>
   <script src="data/splashtexts.js"></script>
   <script src="data/hovereffects.js"></script>
-  
+
   <div id="navbar"></div>
   <script src="js/navbar.js"></script>
-  
-  <br><br><br>
-  <h1>Welcome to Art Class</h1>
-  <br>
 
-  <p id="splashtext"></p>
-  
-  <!--<div id="homepage-cards">
-    
-    <div class="card" onclick="window.location.href = '/gs.html'">
-      <i class="fa-solid fa-gamepad cardicon"></i>
-      <div class="card-content">
-        <h4>Games</h4>
-      </div>
-    </div>
-    
-    <div class="card" onclick="window.location.href = '/apps.html'">
-      <i class="fa-brands fa-app-store-ios"></i>      
-      <h4>Apps</h4>
-      
-    </div>
-    
-    <div class="card" onclick="window.location.href = '/utils.html'">
-      <i class="fa-solid fa-wrench"></i>
-      <div class="card-content">
-        <h4>Utilities</h4>
-      </div>
+  <div class="btngroup">
+    <div>
+      <h1>Welcome to Art Class</h1>
+      <br>
+      <p id="splashtext"></p>
+      <br><br>
+      <button class="homebutton" onclick="window.location.href = 'https://discord.gg/desmos'">Join our Discord</button>
+      <button class="homebutton" id="blankbtn" onclick="blank()">Open in about:blank</button>
+      <button class="homebutton" onclick="window.location.href = '/partners.html'">Partners</button>
     </div>
 
-    <div class="card" onclick="window.location.href = '/settings.html'">
-      <i class="fa-solid fa-gear"></i>
-      <div class="card-content">
-        <h4>Settings</h4>
-      </div>
-    </div>
-
-    <div id="blankcard" class="card" onclick="blank()" style="display: none">
-      <i class="fa-solid fa-eye-slash"></i>
-      <div class="card-content">
-        <h4>about:blank</h4>
-      </div>
-    </div>
-
-  </div> -->
-  <button class="homebutton" onclick="window.location.href = '/gs.html'">Play</button> 
-  <button class="homebutton" onclick="window.location.href = 'https://discord.gg/desmos'">Join our Discord</button>
-  <button class="homebutton" id="blankbtn" onclick="blank()">Open in about:blank</button> <br>
-  <button class="homebutton" onclick="window.location.href = '/partners.html'">Partners</button> 
-  
+  </div>
   <footer>Copyright &copy; 2023 Art Class</footer>
-  
+
   <script src="js/cloak.js"></script>
-  
+
   <script>
     if (window.parent.window.location.href == "about:blank") document.getElementById("blankbtn").remove()
+
     function blank() {
       const tab = window.open('about:blank', '_blank');
       const iframe = tab.document.createElement('iframe');

@@ -9,4 +9,12 @@ var splashtexts = [
     "what are friends?",
     "no david no",
     "don't eat that david",
+    "this is splash text",
+    "public static void main()",
+    "nope thats not correct",
+    "no",
+    "yes",
+    "perhaps",
+    "you can play a whole 20 questions with this",
+    "thats not true",
 ]

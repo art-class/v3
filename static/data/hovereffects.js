@@ -8,5 +8,6 @@ var effects = [
     "pulse", 
     "skew", 
     "skew-forward", 
-    "skew-backward"
+    "skew-backward",
+    "wobble-top"
 ];

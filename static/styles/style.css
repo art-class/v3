@@ -329,3 +329,19 @@ canvas {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+.btngroup {
+  height: calc(100vh - (75px + 15px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.btngroup div {
+  box-sizing: border-box;
+  flex: 1 0 250px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
