@@ -21,6 +21,7 @@ var navbar = `
       <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/"><ion-icon name="home"></ion-icon> Home</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/gs.html"><ion-icon name="game-controller"></ion-icon> Games</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/apps.html"><ion-icon name="apps"></ion-icon> Apps</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/emulator.html"><ion-icon src="../assets/joystick.svg"></ion-icon> Emulator</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/utils.html"><ion-icon name="hammer"></ion-icon> Utilities</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-left"><a href="/settings.html"><ion-icon name="cog"></ion-icon> Settings</a></li>
     </ul>
