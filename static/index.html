@@ -58,14 +58,24 @@
       <button class="homebutton" onclick="window.location.href = 'https://discord.gg/desmos'">Join our Discord</button>
       <button class="homebutton" id="blankbtn" onclick="blank()">Open in about:blank</button>
       <button class="homebutton" onclick="window.location.href = '/partners.html'">Partners</button>
+      <br>
+      <iframe id="alienhub_ad" width="455" height="155" style="border: none; overflow: none"></iframe>
     </div>
 
   </div>
   <footer>Copyright &copy; 2023 Art Class</footer>
 
+  <script src="./uv/uv.bundle.js"></script>
+  <script src="./uv/uv.config.js"></script>
   <script src="js/cloak.js"></script>
-
+  
+  
   <script>
+    navigator.serviceWorker.register('./loadsw.js', {
+      scope: __uv$config.prefix
+    }).then(() => {
+      document.querySelector("#alienhub_ad").src = __uv$config.prefix + __uv$config.encodeUrl("https://hub.alienhub.xyz/show?utm_medium=misc");
+    });
     if (window.parent.window.location.href == "about:blank") document.getElementById("blankbtn").remove()
 
     function blank() {
