@@ -23,6 +23,7 @@ document.addEventListener('visibilitychange', (event) => {
     document.title = originalTab
     document.querySelector("link[rel~='icon']").href = originalFavicon
   } else {
+    if (typeof localStorage.getItem("tabname") == null || localStorage.getItem("tabname") == "null") return;
     document.title = localStorage.getItem("tabname")
     document.querySelector("link[rel~='icon']").href = localStorage.getItem("favicon")
   }

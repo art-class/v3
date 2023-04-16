@@ -26,19 +26,8 @@ gtag('config', 'G-G5VBCB2YQN');
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
   }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
   /* Hover effects for buttons */
   button {
@@ -53,13 +42,12 @@ gtag('config', 'G-G5VBCB2YQN');
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-    animation: pulse 1s ease-in-out infinite;
+    transition: all 0.5s
   }
 
   button:hover {
     background-color: #4f545c;
     color: white;
-    transition-duration: 0.5s;
   }
 
   input[type=text] {
@@ -95,7 +83,7 @@ gtag('config', 'G-G5VBCB2YQN');
   
   <input id="faviconInput" type="text" placeholder="Tab Icon URL">
   <button onclick="updateFavicon()"><i class="fa-solid fa-check"></i></button><br><br>
-  <button onclick="resetCloak()" style="width: 150px">Reset Cloaking</button> <br><br>
+  <button onclick="resetCloak()">Reset Cloaking</button> <br><br>
   <button onclick="clearcustomgames()"> Clear custom games</button>
   <button onclick="clearcustomapps()"> Clear custom apps</button>
 
