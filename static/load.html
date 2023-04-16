@@ -57,6 +57,7 @@
   <script src="./data/apps.js"></script>
   <script src="./data/utils.js"></script>
   <script src="js/cloak.js"></script>
+  <script src="js/script.js"></script>
   
 
   <script>
@@ -107,6 +108,7 @@
         
       })
     } else if (params.get("app")) {
+      
       apps.forEach(app => {
         if (app.id != params.get("app")) return
         document.title = `${app.title} | Art Class`

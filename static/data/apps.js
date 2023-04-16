@@ -1,5 +1,10 @@
 var apps = [
   {
+    'id': 'customapp',
+    'title': 'Add custom app',
+    'image': 'assets/addicon.png'
+  },
+  {
     "id": "google",
     "title": "Google",
     "url": "https://www.google.com/?safe=active&ssui=on",
@@ -95,4 +100,10 @@ var apps = [
   }
 ]
 
+var customapps = JSON.parse(localStorage.getItem("customapps"))
+customapps.forEach(app => {
+  apps.push(app)
+})
+
 console.log("Loaded " + apps.length + " apps")
+console.log("Loaded " + customapps.length + " custom apps")

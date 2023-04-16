@@ -50,6 +50,7 @@
   
   <h1>Apps</h1>
   <input type="text" class="text" id="search" placeholder="Search" />
+  <!--<p onclick="debug()">debug</p> <p onclick="clearcustomapps()">clear custom apps</p>-->
   <div id="homepage-cards"></div>
 
   </div>
@@ -58,21 +59,29 @@
   
   
   <script src="data/apps.js"></script>
+  <script src="js/script.js"></script>
   <script>
     apps.forEach(app => {
+      if (typeof app == null || app.title == "null") return
       var card = document.createElement("div")
       var image = document.createElement("img")
       var text = document.createElement("h4")
       card.classList.add("card")
-      card.addEventListener("click", () => {
-        window.location.href = `/load.html?app=${app.id}`
-      })
+      
       if (app.image) image.src = app.image
-      if (!app.image) image.src = "https://via.placeholder.com/200"
+      if (!app.image) image.src = "https://www.pngkey.com/png/full/167-1670247_white-globe-icon-png-holy-bible-new-international.png"
       text.innerHTML = app.title
       card.appendChild(image)
       card.appendChild(text)
+      card.classList.add("hvr-bob")
       document.querySelector("#homepage-cards").appendChild(card)
+      
+      card.addEventListener("click", () => {
+
+        if (app.id == "customapp") return loadcustomapp() 
+        window.location.href = `/load.html?app=${app.id}`
+      })
+
     })
 
     const searchInput = document.querySelector('#search');
