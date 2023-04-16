@@ -34,7 +34,7 @@ function loadcustomapp() {
         localStorage.removeItem("conflict")
     }
 
-    customapps.push(JSON.parse(`{ "title": "${name}", "url": "${url}", "id": "${id}", "image": "${icon}", "description": "${description}" }`))
+    customapps.push(JSON.parse(`{ "title": "${name} (Custom app)", "url": "${url}", "id": "${id}", "image": "${icon}", "description": "${description}" }`))
     setObj("customapps", customapps)
     console.log("added custom app!1!!!11!")
     window.location.href = self.location
@@ -73,7 +73,7 @@ function loadcustomgame() {
         localStorage.removeItem("conflict")
     }
 
-    customgames.push(JSON.parse(`{ "title": "${name}", "url": "${url}", "id": "${id}", "image": "${icon}", "description": "${description}" }`))
+    customgames.push(JSON.parse(`{ "title": "${name} (Custom game)", "url": "${url}", "id": "${id}", "image": "${icon}", "description": "${description}" }`))
     setObj("customgames", customgames)
     console.log("added custom game'!1!!!11!")
     window.location.href = self.location
