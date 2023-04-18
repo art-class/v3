@@ -1,6 +1,5 @@
-
   services:
   - type: web
-    name: interstellar
+    name: artclass
     env: docker
     plan: free
