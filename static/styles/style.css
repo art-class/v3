@@ -78,16 +78,27 @@ button {
 
 }
 
-#search {
-  font-family: "DM Sans";
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+#input {
+  font-size: 30px;
+  padding: 20px;
   background-color: transparent;
-  border: 3px solid white;
+  border: 1px solid white;
+  color: gray;
   border-radius: 5px;
-  color: white;
-  padding: 15px 30px;
-  font-size: 20px;
-  height: 25px;
-  margin: 5px;
+  font-family: 'DM Sans', FontAwesome, sans-serif;
+  margin-top: 10px;
+  transition: all 0.4s;
+  width: 400px;
+  position: relative;
+}
+
+#input:focus {
+  width: 600px;
 }
 
 h3 {
@@ -243,10 +254,23 @@ canvas {
 }
 
 #container {
-  height: calc(100vh - (75px + 15px));
+  height: calc(100vh - (75px + 25px));
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 15px;
+}
+
+#search {
+  margin-bottom: 150px;
+}
+
+#prxy {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
 }
 
 #gameInfo {
