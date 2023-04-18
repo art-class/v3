@@ -262,8 +262,17 @@ canvas {
 }
 
 #search {
-  margin-bottom: 150px;
+  font-family: "DM Sans";
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  height: 25px;
+  margin: 5px;
 }
+
 
 #prxy {
   height: 100%;
