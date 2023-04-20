@@ -25,7 +25,7 @@ var navbar = `
       <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/gs.html"><ion-icon class="hvr-icon" name="game-controller"></ion-icon> Games</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/apps.html"><ion-icon class="hvr-icon" name="apps"></ion-icon> Apps</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/emulator.html"><ion-icon class="hvr-icon" src="../assets/joystick.svg"></ion-icon> Emulator</a></li>
-      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/prxy.html"><ion-icon class="hvr-icon" name="lock-open"></ion-icon> Proxy</a></li>
+      <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/search.html"><ion-icon class="hvr-icon" name="search"></ion-icon> Search</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-center"><a href="/utils.html"><ion-icon class="hvr-icon" name="hammer"></ion-icon> Utilities</a></li>
       <li data-m="bounce-down" class="hvr-underline-from-center hvr-underline-from-center"><a href="/settings.html"><ion-icon class="hvr-icon" name="cog"></ion-icon> Settings</a></li>
     </ul>
