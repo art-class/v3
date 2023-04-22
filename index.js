@@ -5,12 +5,13 @@ import { createServer } from "node:http";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
 import { hostname } from "node:os";
-
 import { getLastCommit } from 'git-last-commit';
 getLastCommit((err, commit) => {
   if (err) throw err;
   console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
-})
+}
+
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 
 const publicPath = fileURLToPath(new URL('./static/', import.meta.url));
@@ -31,7 +32,6 @@ app.use((req, res) => {
 });
 
 const server = createServer();
-
 server.on("request", (req, res) => {
   if (bare.shouldRoute(req)) {
     bare.routeRequest(req, res);
