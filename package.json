@@ -19,6 +19,7 @@
     "@titaniumnetwork-dev/ultraviolet": "^1.0.5",
     "@tomphttp/bare-server-node": "^1.2.2",
     "express": "^4.18.2",
+    "git-last-commit": "^1.0.1",
     "nodemon": "^2.0.20",
     "particles.js": "^2.0.0",
     "ultraviolet-static": "https://github.com/titaniumnetwork-dev/Ultraviolet-Static/releases/download/v1.0.0/ultraviolet-static-1.0.0.tgz"

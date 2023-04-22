@@ -6,6 +6,11 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
 import { hostname } from "node:os";
 
+import { getLastCommit } from 'git-last-commit';
+getLastCommit((err, commit) => {
+  if (err) throw err;
+  console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
+})
 import { fileURLToPath } from 'url';
 
 const publicPath = fileURLToPath(new URL('./static/', import.meta.url));
