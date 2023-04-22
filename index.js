@@ -69,3 +69,5 @@ server.on("listening", () => {
 server.listen({
   port
 });
+
+console.log("everything should be working")
