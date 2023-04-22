@@ -7,7 +7,7 @@ import { join } from "node:path";
 import { hostname } from "node:os";
 import { getLastCommit } from 'git-last-commit';
 getLastCommit((err, commit) => {
-  if (err) throw err;
+  if (err) return;
   console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
 })
 
