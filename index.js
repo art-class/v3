@@ -9,7 +9,7 @@ import { getLastCommit } from 'git-last-commit';
 getLastCommit((err, commit) => {
   if (err) throw err;
   console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
-}
+})
 
 import fs from 'fs';
 import { fileURLToPath } from 'url';
