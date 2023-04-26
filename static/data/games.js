@@ -3,6 +3,18 @@
 /* GAMES TO ADD
 
 
+bloxors
+drift boss
+
+*/
+
+/* game json template
+  {
+    'id': '',
+    'title': '',
+    'url': '',
+    'image': ''
+  }, 
 
 */
 
@@ -43,6 +55,12 @@ var games = [
     'title': 'Cut the Rope',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/ctr/index.html',
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
+  },
+  {
+    'id': 'backrooms',
+    'title': 'Backrooms',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/backrooms/index.html',
+    'image': 'https://media.wired.com/photos/627b0c1fb6048c47d506c6c0/1:1/w_679,h_679,c_limit/Backrooms-Games.jpg'
   },
   {
     'id': 'youarebezos',
@@ -169,16 +187,16 @@ var games = [
     'image': 'https://geometry-dash.co/upload/imgs/smash-karts-logo.png'
   },
   {
-    'id': 'roblox',
-    'title': "Roblox",
-    'url': 'https://nowgg.me',
-    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
-  },
-  {
     'id': 'tunnelrush',
     'title': 'Tunnel Rush',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e00403015397cb588f42d3a461b5ac9503dd7c2d/tunnel-rush/index.html',
     'image': 'https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg',
+  },
+  {
+    'id': 'awesometanks2',
+    'title': 'Awesome Tanks 2',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/awesometanks2/index.html',
+    'image': 'https://play-lh.googleusercontent.com/fiH2wSovQkxQ2dQViDAphNBbM0B1dYxTlJqnYwKXeSoQQZbBNkZZuLyMkv4gglb7LH4'
   },
   {
     'id': 'fireandice',
@@ -216,6 +234,12 @@ var games = [
     'title': 'Slope',
     'url': 'https://mathadventure1.github.io/slope/slope/index.html',
     'image': 'https://play-lh.googleusercontent.com/uJn2i9h7KxYQarC_c3K4qH6o7gLtflFnhD_dN14MNkzHJ1NeNFzCL69jpB5mT0vCoQs'
+  },
+  {
+    'id': 'baldisbasics',
+    'title': 'Baldi\'s Basics',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/baldis-basics/index.html',
+    'image': 'https://play-lh.googleusercontent.com/EPV1TB4So1lB0DGrdCVExDpNU8ML67nd8OqBeoOIM-s6sDicxmDdPvCXD6n7LKevFl0'
   },
   {
     "id": '1v1lol',
@@ -260,6 +284,12 @@ var games = [
     'image': 'https://downloadr2.apkmirror.com/wp-content/uploads/2019/01/5c5122d13cd72.png'
   },
   {
+    'id': 'bloxors',
+    'title': 'Bloxors',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/bloxors/index.html',
+    'image': 'https://play-lh.googleusercontent.com/FHpA3r3FHDzVNtBpjpi9Zq8JA81bvRXBEbdkBvL3COOucsMfn_fYYhEFE5g55VkeSQ'
+  },
+  {
     'id': 'chromedino',
     'title': "Chrome Dino Game",
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/chrome-dino/index.html',
@@ -282,6 +312,12 @@ var games = [
     'title': 'slither.io',
     'url': 'https://slither.io',
     'image': 'https://play-lh.googleusercontent.com/oObkhKfUXOY5yzheKe9w1Y1pXZBgdiSksMeNmT0BijoQ8J75maTCIW2TA7-6pA6EMA'
+  },
+  {
+    'id': 'driftboss',
+    'title': 'Drift Boss',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/drift-boss/index.html',
+    'image': 'https://play-lh.googleusercontent.com/reYobJ4Z_dJ-uSeYFb2zVnvAlfqF9VQFsXVcFRwdMx_SmATGHwOur9i338-MaVZxtLw'
   },
   {
     'id': 'basketballstars',
@@ -331,6 +367,12 @@ var games = [
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/21ac7257444af1713884b35045938d57e88a4993/aquapark-slides/index.html',
     'image': 'https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6'
   },
+  {
+    'id': '2048',
+    'title': '2048',
+    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/f839d26b4770ba137c399dc1a1c6ccf22e5f3565/2048/index.html',
+    'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
+  }
 ]
 
 var customgames = JSON.parse(localStorage.getItem("customgames"))
