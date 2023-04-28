@@ -1,38 +1,27 @@
-import createBareServer from "@tomphttp/bare-server-node";
-import express from "express";
-import { createServer } from "node:http";
-// import { publicPath } from "ultraviolet-static";
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
-import { join } from "node:path";
-import { hostname } from "node:os";
+import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+import { hostname } from 'node:os';
+import { createServer } from 'node:http';
+import createBareServer from '@tomphttp/bare-server-node';
+import express from 'express';
+import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 import { getLastCommit } from 'git-last-commit';
+
 getLastCommit((err, commit) => {
-  if (err) return;
-  console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
-})
-
-import fs from 'fs';
-import { fileURLToPath } from 'url';
-
-const publicPath = fileURLToPath(new URL('./static/', import.meta.url));
-
-const bare = createBareServer("/bare/");
-const app = express();
-
-// Load our publicPath first and prioritize it over UV.
-app.use(express.static(publicPath));
-// Load vendor files last.
-// The vendor's uv.config.js won't conflict with our uv.config.js inside the publicPath directory.
-app.use("/uv/", express.static(uvPath));
-
-// Error for everything else
-app.use((req, res) => {
-  res.status(404);
-  res.sendFile(join(publicPath, "404.html"));
+  if (!err) console.log(`Latest update: ${commit.subject} (${commit.committer.name})`);
 });
 
+const publicPath = fileURLToPath(new URL('./static/', import.meta.url));
+const bare = createBareServer('/bare/');
 const server = createServer();
-server.on("request", (req, res) => {
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(express.static(publicPath));
+app.use('/uv/', express.static(uvPath));
+app.use((req, res) => res.sendFile(join(publicPath, '404.html')).status(404));
+
+server.on('request', (req, res) => {
   if (bare.shouldRoute(req)) {
     bare.routeRequest(req, res);
   } else {
@@ -40,7 +29,7 @@ server.on("request", (req, res) => {
   }
 });
 
-server.on("upgrade", (req, socket, head) => {
+server.on('upgrade', (req, socket, head) => {
   if (bare.shouldRoute(req)) {
     bare.routeUpgrade(req, socket, head);
   } else {
@@ -48,26 +37,13 @@ server.on("upgrade", (req, socket, head) => {
   }
 });
 
-const port = process.env.PORT || 3000
-
-
-server.on("listening", () => {
-  const address = server.address();
-
-  // by default we are listening on 0.0.0.0 (every interface)
-  // we just need to list a few
-  console.log("Listening on:");
-  console.log(`\thttp://localhost:${address.port}`);
-  console.log(`\thttp://${hostname()}:${address.port}`);
+server.listen({ port }, () => {
+  console.log('Listening on:');
+  console.log(`\thttp://localhost:${server.address().port}`);
+  console.log(`\thttp://${hostname()}:${server.address().port}`);
   console.log(
     `\thttp://${
-      address.family === "IPv6" ? `[${address.address}]` : address.address
-    }:${address.port}`
+      server.address().family === 'IPv6' ? `[${server.address().address}]` : server.address().address
+    }:${server.address().port}`
   );
 });
-
-server.listen({
-  port
-});
-
-console.log("everything should be working")
