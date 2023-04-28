@@ -8,8 +8,7 @@ import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 import { getLastCommit } from 'git-last-commit';
 
 getLastCommit((err, commit) => {
-  if (err) return;
-  console.log(`Latest update: ${commit.subject} (${commit.committer.name})`)
+  if (!err) console.log(`Latest update: ${commit.subject} (${commit.committer.name})`);
 });
 
 const publicPath = fileURLToPath(new URL('./static/', import.meta.url));
@@ -21,7 +20,6 @@ const port = process.env.PORT || 3000;
 app.use(express.static(publicPath));
 app.use('/uv/', express.static(uvPath));
 app.use((req, res) => res.sendFile(join(publicPath, '404.html')).status(404));
-
 
 server.on('request', (req, res) => {
   if (bare.shouldRoute(req)) {
