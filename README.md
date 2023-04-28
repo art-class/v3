@@ -21,5 +21,9 @@ $ npm install
 $ npm start
 ````
 
+## Contributors
+
+[![Contrib](https://contrib.rocks/image?repo=proudparrot2/artclass#)](https://github.com/proudparrot2/artclass/graphs/contributors)
+
 ### Support
 If you need help with the site or deploying, join our Discord at https://discord.gg/tMaHQ2dyk5
