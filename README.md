@@ -11,7 +11,7 @@ Official website of Art Class
 [![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repositoryurl=https://github.com/proudparrot2/artclass)
 
 ### Install using the terminal
-You will need to have [nodejs](https://nodejs.org) and [git](https://git-scm.com/download) installed.
+You will need to have [NodeJS](https://nodejs.org) and [Git](https://git-scm.com/download) installed.
 ````bash
 $ git clone https://github.com/proudparrot2/artclass.git
 ````

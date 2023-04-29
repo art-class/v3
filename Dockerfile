@@ -3,11 +3,8 @@ ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY ["package.json", "./"]
+COPY ["package.json", "static", "index.js"]
 
 RUN npm install
 
-COPY . .
-RUN npm install pm2 -g
-
-CMD ["pm2-runtime", "index.js"]
+CMD ["npm", "start", "--trust-proxy"]
