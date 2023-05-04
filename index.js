@@ -33,7 +33,7 @@ app.post("/data/event", async (req, res, next) => {
   try {
     const data = await axios({
       method: 'post',
-      url: 'https://artclass.site:8443/api/event',
+      url: 'https://plausible.artclass.site/api/event',
       headers: {
         'Host': 'artclass.site',
         'X-Forwarded-For': req.ip,
@@ -56,7 +56,7 @@ app.get('/data/script.js', async (req, res, next) => {
     if(!dataScript) {
       const { data } = await axios({
         method: 'get',
-        url: 'https://artclass.site:8443/js/script.js'
+        url: 'https://plausible.artclass.site/js/script.js'
       });
       dataScript = data;
     };
