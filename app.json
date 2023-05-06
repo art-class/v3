@@ -1,7 +1,7 @@
 {
-  "name": "Ultraviolet App",
-  "description": "Node.js Ultraviolet instance",
-  "repository": "https://github.com/titaniumnetwork-dev/ultraviolet-node",
+  "name": "Art Class",
+  "description": "Art Class v3",
+  "repository": "https://github.com/titaniumnetwork-dev/ultraviolet-app",
   "logo": "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png",
-  "keywords": ["tomp", "ultraviolet"]
+  "keywords": ["artclass"]
 }

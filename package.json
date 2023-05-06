@@ -1,11 +1,11 @@
 {
-  "name": "uv-app",
-  "version": "1.0.0",
-  "description": "Ultraviolet instance",
+  "name": "artclass",
+  "version": "3.0.0",
+  "description": "Art Class v3",
   "type": "module",
   "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
   },
   "scripts": {
     "start": "node index.js"
@@ -18,11 +18,9 @@
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^1.0.5",
     "@tomphttp/bare-server-node": "^1.2.2",
+    "axios": "^1.4.0",
     "express": "^4.18.2",
-    "git-last-commit": "^1.0.1",
-    "nodemon": "^2.0.20",
-    "particles.js": "^2.0.0",
-    "ultraviolet-static": "https://github.com/titaniumnetwork-dev/Ultraviolet-Static/releases/download/v1.0.0/ultraviolet-static-1.0.0.tgz"
+    "git-last-commit": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^8.23.1",

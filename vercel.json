@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/data/script.js",
+      "destination": "https://artclass.site:8443/js/script.js"
+    },
+    {
+      "source": "/data/event",
+      "destination": "https://artclass.site:8443/api/event"
+    }
+  ]
+}
