@@ -83,7 +83,7 @@ button {
   font-family: 'Helvetica', FontAwesome, sans-serif;
 }
 
-#input {
+.input {
   font-size: 30px;
   padding: 20px;
   background-color: transparent;
@@ -97,7 +97,7 @@ button {
   position: relative;
 }
 
-#input:focus {
+.input:focus {
   width: 600px;
 }
 
