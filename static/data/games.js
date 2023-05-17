@@ -31,6 +31,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/e5jzYTn7Mjh9Ghn-DFpVedkOlRfSOyCS2AFgXdTrADIuuUbjx6vP6r_YOM2j5m7uLQ'
   },
   {
+    'id': 'jacksmith',
+    'title': 'Jacksmith',
+    'url': 'https://art-class.github.io/assets/jacksmith',
+    'image': 'https://lh3.googleusercontent.com/dJAftLFmxmWdTAEjuolFrtNNAX3D0HjODTm9703CP7JqM_jFgOgPR75d6xqRsYTwoTot'
+  },
+  {
     'id': 'thereisnogame',
     'title': 'There Is No Game',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/there-is-no-game/index.html',
@@ -96,7 +102,8 @@ var games = [
   {
     'id': 'motox3m',
     'title': 'MotoX3M',
-    'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/motox3m/index.html',
+    //'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/e3144855e924629d8f7c41238660a823a5336705/motox3m/index.html',
+    'url': 'https://art-class.github.io/assets/motox3m',
     'image': 'https://play-lh.googleusercontent.com/AbQMuT4ncBfWDqNF-4ubmfaRag59nrW3fJARDsHK51_PENScmWCnMFeQX81wfPlfGBo'
   },
   {
