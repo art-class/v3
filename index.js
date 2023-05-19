@@ -4,7 +4,8 @@ import { hostname } from 'node:os';
 import { createServer } from 'node:http';
 import createBareServer from '@tomphttp/bare-server-node';
 import express from 'express';
-import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
+// "@titaniumnetwork-dev/ultraviolet": "^1.0.5",
+//import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 import { getLastCommit } from 'git-last-commit';
 import axios from 'axios';
 
@@ -25,7 +26,7 @@ let dataScript;
 const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
-app.use('/uv/', express.static(uvPath));
+//app.use('/uv/', express.static(uvPath));
 app.post("/data/event", express.json({
   type: 'text'
 }));
