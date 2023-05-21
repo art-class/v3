@@ -1,9 +1,0 @@
-node_modules/
-.config/
-.upm/
-.git/
-
-replit.nix
-.replit
-server.cert
-server.key
