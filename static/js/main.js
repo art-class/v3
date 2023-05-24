@@ -109,11 +109,6 @@ function search(input, template) {
   <div class="curzr-dot"></div>
 </div>
   */
-
-  cursor1.classList.add("curzr")
-  cursor2.classList.add("curzr-dot")
-  cursor1.appendChild(cursor2)
-  document.body.appendChild(cursor1)
   
     class RingDot {
         constructor() {
