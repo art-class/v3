@@ -27,46 +27,6 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 //app.use('/uv/', express.static(uvPath));
-app.post("/data/event", express.json({
-  type: 'text'
-}));
-app.post("/data/event", async (req, res, next) => {
-  try {
-    const data = await axios({
-      method: 'post',
-      url: 'https://plausible.artclass.site/api/event',
-      headers: {
-        'Host': 'artclass.site',
-        'X-Forwarded-For': req.ip,
-        'X-Forwarded-Host': req.headers.host,
-        'Content-Type': 'application/json',
-        'User-Agent': req.headers['user-agent']
-      },
-      data: JSON.stringify(req.body),
-      validateStatus: () => true
-    });
-    if(!data.data) return next();
-    res.json(data.data);
-  } catch(err) {
-    next(err);
-  }
-});
-
-app.get('/data/script.js', async (req, res, next) => {
-  try {
-    if(!dataScript) {
-      const { data } = await axios({
-        method: 'get',
-        url: 'https://plausible.artclass.site/js/script.js'
-      });
-      dataScript = data;
-    };
-    res.set('Content-Type', 'application/javascript');
-    res.end(dataScript);
-  } catch(err) {
-    next(err);
-  }
-});
 
 app.use((req, res) => res.status(404).sendFile(join(publicPath, '404.html')));
 server.on('request', (req, res) => {

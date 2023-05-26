@@ -16,10 +16,7 @@
   <link rel="stylesheet" href="styles/hover.css" />
 
   <script src="https://kit.fontawesome.com/e897e5d5dc.js" crossorigin="anonymous"></script>
-  <!-- Privacy-friendly analytics using plausible. You can remove these scripts if you want -->
-  <script defer data-api="/data/event" data-domain="artclass.site" src="/data/script.js"></script>
-  <script async src="https://arc.io/widget.min.js#HC4S5PSX"></script>
-  <script src="js/main.js"></script>
+  
   <style>
     body,
     html {
@@ -32,9 +29,11 @@
 </head>
 
 <body>
+  <script src="js/main.js"></script>
   <div id="particles-js"></div>
   <script src="js/particles.min.js"></script>
   <script src="js/particles.js"></script>
+  <script src="js/uv.js"></script>
   <script src="data/splashtexts.js"></script>
   <script src="data/hovereffects.js"></script>
 
@@ -63,11 +62,7 @@
   
   
   <script>
-    navigator.serviceWorker.register('./loadsw.js', {
-      scope: __uv$config.prefix
-    }).then(() => {
-      document.querySelector("#alienhub_ad").src = __uv$config.prefix + __uv$config.encodeUrl("https://hub.alienhub.xyz/show?utm_medium=misc");
-    });
+    registerSW()
     if (window.parent.window.location.href == "about:blank") document.getElementById("blankbtn").remove()
 
     function blank() {
