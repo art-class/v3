@@ -69,6 +69,12 @@ var games = [
     'image': 'https://play-lh.googleusercontent.com/8FNcAyLXtQB_0Ux2ZO8VZoEoihL6a5VMBNf6V2lydRM24hXLnNUdlEup1d5miVjl3JY'
   },
   {
+    'id': 'roblox',
+    'title': 'Roblox',
+    'url': 'https://nowgg.me/roblox',
+    'image': 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht'
+  },
+  {
     'id': 'backrooms',
     'title': 'Backrooms',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/60f2f97b00ffe9566ee06c82ecaf67255931118b/backrooms/index.html',
