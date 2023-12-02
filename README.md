@@ -1,6 +1,8 @@
 # Art Class
 Official website of Art Class
 
+*psst - check out [v4](https://github.com/art-class/v4)!*
+
 ### Deploy
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/proudparrot2/artclass)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/proudparrot2/artclass)
